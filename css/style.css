@@ -1,0 +1,290 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    object-fit: cover;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.link-nav {
+    display: flex;
+    gap: 100px;
+}
+
+.link-social {
+    display: flex;
+    gap: 25px;
+}
+
+.active a {
+    font-weight: 600;
+    color: #2f80ed;
+}
+
+.banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.banner img {
+    width: 90%;
+}
+
+.main {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 50px;
+    gap: 50px;
+}
+
+.detail {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 50px;
+    gap: 20px;
+}
+
+.detail p {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.detail h2 {
+    font-size: 1.6rem;
+    text-align: left;
+}
+
+.main-col {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    margin: 0 auto;
+    padding: 50px;
+    gap: 20px;
+}
+
+.main-col-2 {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.single-img {
+    width: 50%;
+}
+
+.single-img img {
+    width: 100%;
+}
+
+.box-img {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 34px;
+}
+
+.box-img img {
+    width: 48%;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories-type {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 30px;
+    border: 1px solid black;
+}
+
+.categories-type img {
+    width: 30%;
+}
+
+.formulaire {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.form-header {
+    width: 100%;
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.form-header h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.formulaire form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px 100px;
+    margin: 0 auto;
+}
+
+.row-col {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.row, .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.row input, .row-col input {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.row textarea {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    padding: 10px 0 0 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.row.file {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.row.file label {
+    width: 30%;
+    background-color: #e0e0e0;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.row.file input {
+    display: none;
+}
+
+.btn {
+    width: 35%;
+    padding: 16px 0;
+    color: white;
+    background-color: #26ab5e;
+    align-self: flex-end;
+    border: none;
+    border-radius: 5px;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.card-box img {
+    width: 90%;
+}
+
+.rent {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #ff8d1c;
+    color: white;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 50px;
+}
+
+.price {
+    font-size: 1.5rem;
+    color: #ff8d1c;
+}
+
+.personal {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.personal img {
+    width: 50%;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 50px;
+}
+
+.categories ul li, .menu ul li {
+    list-style: disc;
+    margin-left: 20px;
+}
